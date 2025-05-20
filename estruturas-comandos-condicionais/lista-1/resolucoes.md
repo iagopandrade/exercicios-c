@@ -189,7 +189,7 @@ int main() {
     return 0;
 }
 ```
-Código fonte: [codigos-fonte/exercicio-08.c](codigos-fonte/exercicio-08.c)
+Código fonte: [codigos-fonte/exercicio-08.c](codigos-fonte/exercicio-08.c)  
 
 9 - Dados três tamanhos de segmentos de reta a, b e c, se a+b>c e a+c>b e b+c>a, estes 
 segmentos de reta podem formar um triângulo. Faça um programa que, dados os valores 
@@ -216,7 +216,8 @@ int main() {
     return 0;
 }
 ```
-Código fonte: [codigos-fonte/exercicio-09.c](codigos-fonte/exercicio-09.c)
+Código fonte: [codigos-fonte/exercicio-09.c](codigos-fonte/exercicio-09.c)  
+
 10 – Escreva um programa que calcule a média de cada aluno de uma disciplina, 
 seguindo a seguinte fórmula:  
 ![image info](imagens/media.jpeg)  
