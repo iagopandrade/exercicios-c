@@ -204,7 +204,27 @@ segmentos de reta podem formar um triângulo. Faça um programa que, dados os va
 dos tamanhos dos segmentos de reta a, b e c, verificar / informar se formam (podem 
 formar) ou não um triângulo. Além disso, se forma um triângulo, classifique o triângulo 
 como: “Equilátero”, “Isósceles” ou “Escaleno”. 
+```c
+#include <stdio.h>
 
+int main() {
+    int a, b, c;	
+    printf("Informe o tamanho do segmente de reta a: ");
+    scanf("%d", &a);
+    printf("Informe o tamanho do segmente de reta b: ");
+    scanf("%d", &b);
+    printf("Informe o tamanho do segmente de reta c: ");
+    scanf("%d", &c);
+	
+    if(a + b > c && a + c > b && b + c > a) {
+     	if(a == b && b == c) printf("Triangulo equilatero");
+    	else if(a == b && b != c) printf("Triangulo isosceles");
+    	else printf("Triangulo escaleno");
+    }
+    return 0;
+}
+```
+Código fonte: [codigos-fonte/exercicio-09.c](codigos-fonte/exercicio-09.c)
 10 – Escreva um programa que calcule a média de cada aluno de uma disciplina, 
 seguindo a seguinte fórmula:  
 ![image info](media.jpeg)  
@@ -214,3 +234,24 @@ aluno da disciplina) e P1 e P2 (que são os respectivos pesos destas notas). Inf
 média e se o aluno foi “Aprovado” (média maior ou igual a 7,0), ficou de “Final” 
 (média menor que 7,0 e maior ou igual a 4,0) ou se ficou “Reprovado” (média menor 
 do que 4,0).  
+```c
+#include <stdio.h>
+
+int main() {
+    float n1, n2, media;
+    int p1 = 2, p2 = 3;
+	
+    printf("Informe a nota da N1: ");
+    scanf("%f", &n1);
+    printf("Informe a nota da N2: ");
+    scanf("%f", &n2);
+    
+    media = (n1 * p1 + n2 * p2) / (p1 + p2);
+    
+    if(media >= 7.0) printf("Media: %2.f\nSituacao: Aprovado", media);
+    else if(media >= 4.0 && media < 7.0) printf("Media: %2.f\nSituacao: Avaliacao final", media);
+    else printf("Media: %2.f\nSituacao: Reprovado", media);
+    return 0;
+}
+```
+Código fonte: [codigos-fonte/exercicio-10.c](codigos-fonte/exercicio-10.c)
