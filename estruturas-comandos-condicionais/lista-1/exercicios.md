@@ -31,8 +31,7 @@ A senha válida é “abacate”. Devem ser impressas as seguintes mensagens:
 7 - Faça um programa para ler dois números inteiros A e B e informar se “A é divisível 
 por B”.
 
-8 - Faça um programa para ler um salário e atualizá-lo (imprimindo na tela o novo valor) 
-de acordo com a tabela abaixo, utilizando o comando “switch”: 
+8 - Faça um programa para ler um salário e atualizá-lo (imprimindo na tela o novo valor) de acordo com a tabela abaixo, utilizando comandos “if - else” aninhados: 
 | Faixa salarial            | Aumento   |
 | :---:                     | :---:     |
 | até 600,00                | 30%       |
