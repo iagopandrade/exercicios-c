@@ -116,7 +116,7 @@ int main() {
 	return 0;
 }
 ```
-Código fonte: [codigos-fonte/exercicio-06.c](codigos-fonte/exercicio-05.c)
+Código fonte: [codigos-fonte/exercicio-05.c](codigos-fonte/exercicio-05.c)
 
 6 - Escreva um programa que verifique a validade de uma senha fornecida pelo usuário. 
 A senha válida é “abacate”. Devem ser impressas as seguintes mensagens: 
