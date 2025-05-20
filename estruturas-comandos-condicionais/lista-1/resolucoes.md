@@ -219,7 +219,7 @@ int main() {
 Código fonte: [codigos-fonte/exercicio-09.c](codigos-fonte/exercicio-09.c)
 10 – Escreva um programa que calcule a média de cada aluno de uma disciplina, 
 seguindo a seguinte fórmula:  
-![image info](media.jpeg)  
+![image info](imagens/media.jpeg)  
 ou média = (P1 ∗ N1 + P2 ∗ N2) / (P1 + P2)  
 Em que o programa deve ler os valores reais N1 e N2 (que são as notas de cada 
 aluno da disciplina) e P1 e P2 (que são os respectivos pesos destas notas). Informe a 
