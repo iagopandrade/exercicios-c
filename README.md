@@ -1,4 +1,4 @@
-# Exercícios C
+# Programação Computacional
 
 Neste repositório, documentarei os exercícios realizados na disciplina de **Programação Computacional** do primeiro semestre do curso de **Engenharia de Computação.**  
 
