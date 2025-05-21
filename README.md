@@ -7,7 +7,7 @@ Dentro de cada tópico, há **listas de exercícios**, cada uma contendo:
 
 - `exercicios.md`: arquivo com uma lista de execícios.
 - `resolucoes.md`: arquivo com as propostas de solução dos exercícios.
-- `codigos/`: pasta contendo os códigos-fonte de cada exercício.
+- `codigos-fonte/`: pasta contendo os códigos-fonte de cada exercício.
 
 ---
 
