@@ -174,7 +174,6 @@ de acordo com a tabela abaixo, utilizando comandos “if - else” aninhados:
 
 int main() {
     float salario;
-    int aumento;
 	
     printf("Informe o valor do salario: R$");
     scanf("%f", &salario);
@@ -182,10 +181,10 @@ int main() {
     if(salario > 0.0 && salario <= 600.0) salario += salario * 0.3;
     else if(salario > 600.01 && salario <= 1100.0) salario += salario * 0.25;
     else if(salario > 1100.01 && salario <= 2400.0) salario += salario * 0.2;
-    else if(salario > 2400.01 && salario <= 3550.0) salario += salario * 0.1;
-    else if(salario > 3550.0) aumento = 10;
+    else if(salario > 2400.01 && salario <= 3550.0) salario += salario * 0.15;
+    else if(salario > 3550.0) salario += salario * 0.15;
 	
-    printf("Valor do salario atualizado: R$%2.f", salario);
+    printf("Valor do salario atualizado: R$%.2f", salario);
     return 0;
 }
 ```
@@ -241,9 +240,9 @@ int main() {
     
     media = (n1 * p1 + n2 * p2) / (p1 + p2);
     
-    if(media >= 7.0) printf("Media: %2.f\nSituacao: Aprovado", media);
-    else if(media >= 4.0 && media < 7.0) printf("Media: %2.f\nSituacao: Avaliacao final", media);
-    else printf("Media: %2.f\nSituacao: Reprovado", media);
+    if(media >= 7.0) printf("Media: %.2f\nSituacao: Aprovado", media);
+    else if(media >= 4.0 && media < 7.0) printf("Media: %.2f\nSituacao: Avaliacao final", media);
+    else printf("Media: %.2f\nSituacao: Reprovado", media);
     return 0;
 }
 ```
